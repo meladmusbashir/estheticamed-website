@@ -1,0 +1,33 @@
+{
+  "name": "estheticamed-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview",
+    "deploy": "vite build && wrangler deploy"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.101.2",
+    "@tanstack/react-router": "1.170.17",
+    "@tanstack/react-start": "1.168.27",
+    "@tanstack/router-plugin": "1.168.19",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261023.1",
+    "@tailwindcss/vite": "4.3.2",
+    "@types/node": "22.20.0",
+    "@types/react": "19.2.15",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.2.0",
+    "tailwindcss": "4.3.2",
+    "typescript": "5.9.3",
+    "vite": "7.3.6",
+    "vite-tsconfig-paths": "6.1.1",
+    "wrangler": "4.154.0"
+  }
+}
